@@ -1,0 +1,59 @@
+#orderbook_test {
+  border: solid 1px black;
+  /*width:35%;*/
+  height: 600px;
+  overflow: scroll;
+}
+
+#stats_table .col-xs-2 {
+  border: solid 1px black;
+  font-size: 90%;
+  padding: 10px;
+}
+
+#usertransaction, #markettransaction {
+  height: 300px;
+  overflow: auto;
+  border: 1px solid black;
+  padding: 2%;
+}
+
+#transactionswitcher {
+  float: none;
+  margin: 0px;
+}
+
+#placeorderstyle {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  background: white;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 9px;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 9px;
+}
+
+@media screen and (max-width:669px) {
+  #usertransaction, #markettransaction {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width:521px) {
+  #stats_table {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:405px) {
+  #orderbook_test {
+    font-size: 12px;
+  }
+}

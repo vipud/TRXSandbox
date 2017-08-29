@@ -1,0 +1,12 @@
+1). Moved simulator to line 9
+2). Added my timeseries code (3-23) below simulator
+3). At line 393 inside of getNextEvent AFTER UPDATEGAMECLOCK(), add lines:
+    console.log(simulator.readableTime());
+    console.log(simulator.gameTime);
+4). Define simulator.initializeTime() as
+simulator.initializeTime = function(){
+  simulator.gameStart = new Date(1499074200000);
+}
+5). Call simulator.initializeTime in first line of doTheThing
+6). Refactored simulateDay() and added 5 game second interval to update candles
+    (copy and paste from simDay.js after all code WORKS)
