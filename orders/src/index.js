@@ -8,13 +8,14 @@ import registerServiceWorker from './registerServiceWorker';
 import * as firebase from 'firebase';
 
 var config = {
-   apiKey: "AIzaSyC4umbQ3Av0bWfRGYMWZe9CJMv6A7Esbc4",
-   authDomain: "traderx-a41b3.firebaseapp.com",
-   databaseURL: "https://traderx-a41b3.firebaseio.com",
-   projectId: "traderx-a41b3",
-   storageBucket: "traderx-a41b3.appspot.com",
-   messagingSenderId: "64491605877"
+    apiKey: "AIzaSyCtZ4oVZFRCRN2juh4smbUJCoMpszPuYTQ",
+    authDomain: "traderxsandbox.firebaseapp.com",
+    databaseURL: "https://traderxsandbox.firebaseio.com",
+    projectId: "traderxsandbox",
+    storageBucket: "traderxsandbox.appspot.com",
+    messagingSenderId: "242933715708"
 };
+
 
 firebase.initializeApp(config);
 
